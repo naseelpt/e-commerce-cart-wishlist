@@ -1,0 +1,158 @@
+@keyframes fadeSlide {
+  0%, 20% { opacity: 1; }
+  25%, 100% { opacity: 0; }
+}
+
+.btn-style702 {
+  position: relative;
+  background: #ff7c08;
+  border: 1px solid #bf7b7b;
+  color: #fff;
+  overflow: hidden;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+/* line animation */
+.btn-style702::before {
+  width: 0;
+  height: 4.5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transition: all 0.35s;
+  content: "";
+  z-index: 2;
+}
+
+/* hover slide background */
+.btn-style702::after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2f9140;
+  transform: translateY(-100%);
+  transition: all 0.35s;
+  content: attr(data-hover);
+  z-index: 1;
+  border-radius: 6px;
+}
+
+/* hover effects */
+.btn-style702:hover::before {
+  width: 100%;
+}
+
+.btn-style702:hover::after {
+  transform: translateY(0);
+}
+
+.btn-style703 {
+  position: relative;
+  background: #2f9140;
+  border: 1px solid #bf7b7b;
+  color: #fff;
+  overflow: hidden;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+/* line animation */
+.btn-style703::before {
+  width: 0;
+  height: 4.5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transition: all 0.35s;
+  content: "";
+  z-index: 2;
+}
+
+/* hover slide background */
+.btn-style703::after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff7c08;
+  transform: translateY(-100%);
+  transition: all 0.35s;
+  content: attr(data-hover);
+  z-index: 1;
+  border-radius: 6px;
+}
+
+/* hover effects */
+.btn-style703:hover::before {
+  width: 100%;
+}
+
+.btn-style703:hover::after {
+  transform: translateY(0);
+}
+
+.btn-style704 {
+  position: relative;
+  background: #f10707;
+  border: 1px solid #bf7b7b;
+  color: #fff;
+  overflow: hidden;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+/* line animation */
+.btn-style704::before {
+  width: 0;
+  height: 4.5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transition: all 0.35s;
+  content: "";
+  z-index: 2;
+}
+
+/* hover slide background */
+.btn-style704::after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f10707;
+  transform: translateY(-100%);
+  transition: all 0.35s;
+  content: attr(data-hover);
+  z-index: 1;
+  border-radius: 6px;
+}
+
+/* hover effects */
+.btn-style704:hover::before {
+  width: 100%;
+}
+
+.btn-style704:hover::after {
+  transform: translateY(0);
+}
+
+
