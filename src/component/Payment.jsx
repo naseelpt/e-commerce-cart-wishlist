@@ -8,7 +8,7 @@ function Payment() {
     <Header/>
 
 
-    <div className="p-10">
+    <div className="md:p-10 sm:p-8 p-6">
   <div className="max-w-xl mx-auto bg-white">
     <div className="rounded-xl shadow-sm border border-gray-200 overflow-hidden">
 

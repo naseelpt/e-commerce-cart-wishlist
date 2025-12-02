@@ -74,15 +74,7 @@ function Shop({ setCart, setWish }) {
         <>
             <Header />
 
-            <div className='w-full p-8'>
-
-
-              
-
-
-
-
-
+            <div className='w-full md:p-8'>
 
 
 

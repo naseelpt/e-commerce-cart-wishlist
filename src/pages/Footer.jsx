@@ -7,7 +7,7 @@ function Footer() {
 
             <div className='w-full '>
 
-            <div className='grid sm:grid-cols-2 grid-cols-1 md:grid-cols-4 px-24 py-10 gap-5 text-white bg-[#ff7c08]  '>
+            <div className='grid sm:grid-cols-2 grid-cols-1 md:grid-cols-4 md:px-24 sm:px-16 px-5 py-10 gap-5 text-white bg-[#ff7c08]  '>
 
                     <div>
                         <h1 className='font-bold'>Cansmart</h1>

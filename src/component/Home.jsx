@@ -80,7 +80,7 @@ function Home() {
                 </div>
 
 
-                <div className='md:p-10 '>
+                <div className=' md:pt-20 sm:pt-16 pt-16 '>
     
               <h1 className='text-center md:text-4xl text-xl sm-text-3xl font-bold'>Special Offers</h1>
     
