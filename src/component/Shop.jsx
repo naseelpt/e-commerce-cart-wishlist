@@ -78,7 +78,7 @@ function Shop({ setCart, setWish }) {
 
 
 
-                <div className='p-5 shadow-2xs grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5'>
+                <div className='p-5 shadow-2xs grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-5'>
 
                     {value.map((item) => (
 

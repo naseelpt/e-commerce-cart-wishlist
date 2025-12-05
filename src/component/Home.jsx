@@ -19,7 +19,7 @@ function Home() {
 
             <div className='w-full'>
 
-                <div className='grid md:grid-cols-2 grid-cols-1 sm:grid-cols-1  '>
+                <div className='grid xl:grid-cols-2 grid-cols-1 sm:grid-cols-1  '>
 
 
                     <div className='md:py-52 sm:py-36 py-10 md:px-20 sm:px-10 px-8'>
@@ -53,7 +53,7 @@ function Home() {
 
                     </div>
 
-                    <div className="relative w-full max-w-[600px] h-[400px] sm:h-[350px] md:h-[450px] lg:h-[600px] md:py-16 sm:py-12 py-8  ">
+                    <div className="relative w-full max-w-[600px] h-[400px] sm:h-[350px] md:h-[450px] lg:h-[600px] xl:py-16 flex justify-center items-center ">
 
                         <img
                             src={mm}
@@ -62,7 +62,7 @@ function Home() {
 
                         <img
                             src={m}
-                            className="absolute w-full h-full object-cover opacity-0 animate-[fadeSlide_8s_infinite_2s]"
+                            className="absolute w-full px-2 h-full object-cover opacity-0 animate-[fadeSlide_8s_infinite_2s]"
                         />
 
                         <img
@@ -88,7 +88,7 @@ function Home() {
     
               <div className='w-full'>
     
-                <div className='grid md:grid-cols-3 gap-5 sm-grid-cols-2 grid-cols-1 p-8 w-full'>
+                <div className='grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 gap-5 grid-cols-1 p-8 w-full'>
     
                   <div className='bg-amber-300 transition-transform hover:scale-105 w-full p-5 rounded-2xl '>
     
